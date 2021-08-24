@@ -2,12 +2,83 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
 }
 
 .image-fit {
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
-  object-fit: cover;
+  /* background-size: cover; */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.maroon-rectangle {
+  height: 100%;
+  width: 25%;
+  background-color: #611818;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.explore-box {
+  flex-direction: column;
+  position: absolute;
+  top: 32rem;
+  left: 8rem;
+}
+
+.explore-text {
+  font-family: "utm-times";
+  font-weight: bold;
+  font-size: 16rem;
+  color: #ffffff;
+  letter-spacing: 0.5rem;
+  text-align: center;
+}
+
+.plus-button {
+  width: 250px;
+  height: 250px;
+  border-radius: 0rem;
+  background-color: "white";
+  color: "white";
+  /* position: absolute;
+  bottom: 0;
+  left: 0; */
+}
+
+.plus-circle-container {
+  flex-direction: row;
+  transition: all 0.3s ease-in-out;
+}
+
+.plus-circle-container:hover {
+  font-size: 20rem;
+}
+
+.more-deets-text {
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.animation {
+  margin: 0 auto;
+  margin-top: 70px;
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border-radius: 100% 100% 100% 100%;
+  transition: all 0.5s ease-in-out;
+  float: left;
+}
+
+.animation:hover {
+  height: 500px;
+  width: 300px;
+  border-radius: 0% 0% 0% 0%;
+  background: white;
 }

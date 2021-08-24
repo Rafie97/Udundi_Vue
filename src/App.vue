@@ -1,14 +1,14 @@
 <template>
-  <HelloWorld msg="Hello Udundi" />
+  <MainVue />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import MainVue from "./MainVue.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    MainVue,
   },
 };
 </script>

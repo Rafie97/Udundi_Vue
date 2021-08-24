@@ -1,14 +1,20 @@
 <template>
-  <img src="../assets/Coding-Challenge-Image.png" class="image-fit" />
-  <div data-aos="fade-in">{{ msg }}</div>
+  <img src="./assets/Coding-Challenge-Image.png" class="image-fit" />
+  <div class="maroon-rectangle"></div>
+
+  <div class="explore-box">
+    <div class="explore-text">Explore</div>
+    <PlusCircle />
+  </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import PlusCircle from "./components/PlusCircle.vue";
 import AOS from "aos";
 
 export default defineComponent({
-  name: "HelloWorld",
+  name: "MainVue",
   props: {
     msg: String,
   },
@@ -16,6 +22,9 @@ export default defineComponent({
     return {
       scrolled: 0,
     };
+  },
+  components: {
+    PlusCircle,
   },
   mounted() {
     AOS.init();
