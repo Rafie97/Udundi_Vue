@@ -1,6 +1,6 @@
 <template>
   <div class="plus-circle-container">
-    <div class="animation" />
+    <div class="animated-circle" />
     <!-- <svg
       width="43px"
       height="43px"

@@ -25,14 +25,14 @@
 .explore-box {
   flex-direction: column;
   position: absolute;
-  top: 32rem;
+  top: 16rem;
   left: 8rem;
 }
 
 .explore-text {
   font-family: "utm-times";
   font-weight: bold;
-  font-size: 16rem;
+  font-size: 12rem;
   color: #ffffff;
   letter-spacing: 0.5rem;
   text-align: center;
@@ -65,20 +65,37 @@
   color: #ffffff;
 }
 
-.animation {
+.animated-circle {
+  position: absolute;
+  bottom:0;
+  left:0;
   margin: 0 auto;
   margin-top: 70px;
   width: 45px;
   height: 45px;
   background-color: white;
   border-radius: 100% 100% 100% 100%;
-  transition: all 0.5s ease-in-out;
   float: left;
 }
 
-.animation:hover {
-  height: 500px;
-  width: 300px;
-  border-radius: 0% 0% 0% 0%;
-  background: white;
+.animated-circle:hover {
+  animation: circle-animation 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes circle-animation{
+  10%{
+    border-radius: 30%;
+  }
+  20%{
+    border-radius: 10%;
+  }
+  30%{
+    border-radius: 0%;
+  }
+  100%{
+    border-radius: 0%;
+    height:400px;
+    width:300px;
+  }
 }
