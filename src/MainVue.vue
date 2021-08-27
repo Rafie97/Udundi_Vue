@@ -1,10 +1,12 @@
-<template>
-  <img src="./assets/Coding-Challenge-Image.png" class="image-fit" />
-  <div class="maroon-rectangle"></div>
+<template class="mainTemp">
+  <div class="everything">
+    <img src="./assets/Coding-Challenge-Image.png" class="image-fit" />
+    <div class="maroon-rectangle"></div>
 
-  <div class="explore-box">
-    <div class="explore-text">Explore</div>
-    <PlusCircle />
+    <div class="explore-box">
+      <div class="explore-text">Explore</div>
+      <PlusCircle />
+    </div>
   </div>
 </template>
 

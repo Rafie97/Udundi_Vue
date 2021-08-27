@@ -1,30 +1,25 @@
 <template>
   <div class="plus-circle-container">
-    <div class="animated-circle" />
-    <!-- <svg
-      width="43px"
-      height="43px"
-      viewBox="0 0 43 43"
-      version="1.1"
-      xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
-      class="plus-button"
-    >
-      <g
-        id="Symbols"
-        stroke="none"
-        stroke-width="1"
-        fill="none"
-        fill-rule="evenodd"
-      >
-        <g id="Plus" fill="#FFFFFF" fill-rule="nonzero">
-          <path
-            d="M21.5,0 C9.62587788,0 0,9.62587788 0,21.5 C0,33.3741221 9.62587788,43 21.5,43 C33.3741221,43 43,33.3741221 43,21.5 C43,15.7978455 40.7348279,10.3292363 36.7027958,6.2972042 C32.6707637,2.26517207 27.2021545,0 21.5,0 Z M29.3045211,22.1386371 L22.4673474,22.1386371 L22.4673474,29.309217 L20.5326526,29.309217 L20.5326526,22.1386371 L13.6954789,22.1386371 L13.6954789,20.3236868 L20.5326526,20.3236868 L20.5326526,13.2141531 L22.4673474,13.2141531 L22.4673474,20.3236868 L29.3045211,20.3236868 L29.3045211,22.1386371 Z"
-            id="Shape"
-          ></path>
-        </g>
-      </g>
-    </svg> -->
+    <div class="animated-circle">
+      <h1>Explore</h1>
+      <div class="lorem-text-box">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis
+          egestas pretium aenean pharetra. Odio ut enim blandit volutpat.
+          Adipiscing enim eu turpis egestas pretium aenean. Amet cursus sit amet
+          dictum. Nulla aliquet porttitor lacus luctus accumsan tortor posuere.
+          Dictum at tempor commodo ullamcorper a. Tempor nec feugiat nisl
+          pretium. Nisl tincidunt eget nullam non nisi est sit. Ut sem nulla
+          pharetra diam sit. Amet venenatis urna cursus eget. Adipiscing diam
+          donec adipiscing tristique. Mattis vulputate enim nulla aliquet
+          porttitor lacus luctus accumsan tortor. Sed pulvinar proin gravida
+          hendrerit. Maecenas volutpat blandit aliquam etiam erat velit
+          scelerisque in. Vel fringilla est ullamcorper eget nulla facilisi
+          etiam dignissim diam. Interdum posuere lorem ipsum dolor sit.
+        </p>
+      </div>
+    </div>
     <div class="more-deets-text">More Details</div>
   </div>
 </template>
