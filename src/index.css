@@ -16,7 +16,6 @@
   height: 45px;
   background-color: white;
   border-radius: 100% 100% 100% 100%;
-  float: left;
 }
 
 .animated-circle h1 {
@@ -72,12 +71,12 @@
   left: 12%;
   opacity: 0%;
   animation: explore-animation 2s ease-in forwards;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 @keyframes explore-animation {
   0% {
-    bottom: 0%;
+    bottom: 10%;
     opacity: 0%;
   }
 
@@ -96,14 +95,27 @@
   text-align: center;
 }
 
+.float-buttons {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  max-width: 75px;
+}
+
+.float-buttons img {
+  display: inline-block;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  max-width: 60px;
+}
+
 .image-fit {
   height: 100%;
   width: 100%;
   background-size: cover;
   position: relative;
   overflow: hidden;
-  /* left: 0; */
-  /* margin-top: -20; */
 }
 
 .lorem-text-box {
@@ -137,10 +149,40 @@
 
 .plus-circle-container {
   flex-direction: row;
-  padding-top: 2rem;
   transition: all 0.3s ease-in-out;
 }
 
 .plus-circle-container:hover {
   font-size: 20rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .explore-text {
+    font-size: 8rem;
+  }
+  .more-deets-text {
+    font-size: 1.5rem;
+    margin-bottom: 6px;
+  }
+  .animated-circle:hover {
+    width: 400px;
+    height: 450px;
+    padding: 15px;
+  }
+  .float-buttons img {
+    display: inline-block;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    width: 50px;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .animated-circle:hover {
+    width: 400px;
+    height: 400px;
+  }
+  .animated-circle:hover h1 {
+    margin: 0;
+  }
 }

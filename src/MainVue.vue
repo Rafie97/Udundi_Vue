@@ -7,6 +7,11 @@
       <div class="explore-text">Explore</div>
       <PlusCircle />
     </div>
+
+    <div class="float-buttons">
+      <img src="./assets/Facebook.svg" />
+      <img src="./assets/Instagram.svg" />
+    </div>
   </div>
 </template>
 
